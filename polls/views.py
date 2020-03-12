@@ -3,6 +3,7 @@ from django.http import HttpResponse, Http404
 from .models import Question
 from django.template import loader
 
+#views file
 
 def index(request):
 
